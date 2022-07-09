@@ -2,10 +2,10 @@
 The main goal of the project was to implement a reflection of the standard allocator from the stdlib.h library. Allocator do not use sbrk function but custom version of it.
 ##Running
 When working with the allocator, do not use standard functions to perform operations on heap.
-To compile run:
+To compile run:  
 `gcc -pthread heap.c memmanager.c main.c`
 
-Then:
+Then:  
 `./a.out`
 
 # Features
