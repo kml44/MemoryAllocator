@@ -8,7 +8,7 @@ To compile run:
 Then:
 `./a.out`
 
-#Features
+# Features
 API provides four main functions and a few extra ones.
 ```c
 void* heap_malloc(size_t size);
@@ -16,7 +16,7 @@ void* heap_calloc(size_t number, size_t size);
 void* heap_realloc(void* memblock, size_t count);
 void  heap_free(void* memblock);
 ```
-#API
+# API
 | function  | description  |
 | ------------ | ------------ |
 | int heap_setup(void);  | Initializes the internal allocator structures. Returns **0** if heap was initialized properly or **-1** if there was a problem during this process.|
